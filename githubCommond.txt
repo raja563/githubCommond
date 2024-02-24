@@ -1,0 +1,51 @@
+                    <---GitHub---> 
+
+version ontrol system is a tools that helps to trace change in code . git is a version control system.
+    it is free and open source.
+    fast and scalable
+github that allows developers to store and manage their code using git.
+
+git --version // to check the version of git on cmd.
+
+git configuration :
+
+    git config user_name " "
+    git config user_email " "
+    git config --list 
+
+clone & status :
+    git clone  <link from github code http:>
+    git status 
+        ls 
+        ls -a 
+
+add & commit :
+    git add <filename>
+    git add . // to save all file 
+    git commit -m "write your commit here"
+    git push origin main
+
+init commond:
+    git init
+    git remote add origin <link>
+    git remote -v // to verify remote
+    git branch // to check branch
+    git branch -m <main> // to rename the branch as name main
+    git push origin main
+    git push -u origin main //
+
+during error:
+    git remote rm origin
+    git remote rm upstream
+    git remote add origin <link>
+
+
+workflow :
+    github repo -> clone -> changes -> add -> commit -> push 
+
+branch cmd:
+    git branch // to check branch
+    git branch -m main // to rename branch as main
+    git checkout <branch_name> // to navigate 
+    git checkout -b <new_bracnh_name>// to create new branch
+    git brahc -d <branch_name> // to delete branch 
