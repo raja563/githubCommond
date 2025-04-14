@@ -9,8 +9,8 @@ git --version // to check the version of git on cmd.
 
 git configuration :
 
-    git config user_name " "
-    git config user_email " "
+    git config --global user.name "userName"
+    git config --global user.email "abc@gmail.com"
     git config --list 
 
 clone & status :
